@@ -1,0 +1,16 @@
+.input{
+    width: 3rem;
+
+}
+.length{
+    font-weight: bold;
+}
+.select_currency{
+    width: 100px;
+    border:1px solid black;
+}
+.header{
+    /* padding-bottom: .7rem; */
+    /* border-bottom: 2px solid rgba(0,0,0,.6); */
+    box-shadow: 4px 0 10px rgba(0,0,0,.5);
+}

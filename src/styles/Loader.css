@@ -1,0 +1,23 @@
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    width: 150px;
+    height: 150px;
+    animation: loader 1s linear infinite ;
+    border-radius: 50%;
+    border-bottom: 4px solid black;
+    position: relative;
+    z-index: 1;
+}
+@keyframes loader {
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+p{
+    position: absolute;
+    z-index: 10;
+}
